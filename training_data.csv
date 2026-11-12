@@ -1,0 +1,14 @@
+
+explanation,visual_audio_clues,source_verification,independent_corroboration,uncertainty_awareness
+"The lips don't match the audio.",1,0,0,0
+"I would search for the original video.",0,1,0,0
+"I would compare reports from multiple reliable news sources.",0,0,1,0
+"I'm not completely sure whether this is real.",0,0,0,1
+"The lighting looks inconsistent and I would check the original source.",1,1,0,0
+"I would look for the original upload and compare it with trusted news reports.",0,1,1,0
+"The voice sounds unnatural but that alone doesn't prove it's fake.",1,0,0,1
+"I'm uncertain, so I would verify the source and check other reporting.",0,1,1,1
+"The facial movements seem unusual.",1,0,0,0
+"I need more evidence before deciding.",0,0,0,1
+"The shadows seem inconsistent and several independent sources should be checked.",1,0,1,0
+"I would find the earliest upload to see where the video originated.",0,1,0,0
