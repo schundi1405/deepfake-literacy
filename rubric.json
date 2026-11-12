@@ -1,0 +1,53 @@
+
+{
+  "identification_accuracy": {
+    "name": "Identification Accuracy",
+    "description": "Evaluates whether the participant correctly identifies the content as real or AI-generated.",
+    "scores": {
+      "3": "Correctly identifies the content and clearly states their answer.",
+      "2": "Leans toward the correct answer but expresses uncertainty.",
+      "1": "Gives an unclear answer or leans toward the incorrect answer.",
+      "0": "Confidently identifies the content incorrectly."
+    }
+  },
+  "quality_of_reasoning": {
+    "name": "Quality of Reasoning",
+    "description": "Evaluates how well the participant explains their decision.",
+    "scores": {
+      "3": "Provides a clear explanation supported by multiple relevant observations or pieces of evidence.",
+      "2": "Gives at least one relevant reason but does not explain it in much detail.",
+      "1": "Gives a vague explanation without identifying specific reasons.",
+      "0": "Provides no explanation or reasoning unrelated to the content."
+    }
+  },
+  "visual_audio_clues": {
+    "name": "Understanding of Visual and Audio Clues",
+    "description": "Evaluates recognition of details that could indicate manipulated or AI-generated content.",
+    "scores": {
+      "3": "Identifies relevant visual or audio clues, explains why they matter, and recognizes that these clues are not definitive proof.",
+      "2": "Identifies a relevant clue but does not fully explain its significance or limitations.",
+      "1": "Mentions a vague or unreliable clue without explaining how it relates to manipulation.",
+      "0": "Does not identify relevant clues or relies entirely on unsupported assumptions."
+    }
+  },
+  "verification_strategies": {
+    "name": "Verification Strategies",
+    "description": "Evaluates whether the participant understands how to verify the authenticity of online media.",
+    "scores": {
+      "3": "Suggests multiple practical verification strategies, including checking the original source or comparing independent reliable sources.",
+      "2": "Suggests at least one useful verification method and explains how it could help.",
+      "1": "Mentions verifying the content without explaining how.",
+      "0": "Does not suggest verification methods or relies entirely on an AI detector as definitive proof."
+    }
+  },
+  "critical_thinking_uncertainty": {
+    "name": "Critical Thinking and Uncertainty",
+    "description": "Evaluates consideration of context, uncertainty, and limitations of personal judgment.",
+    "scores": {
+      "3": "Considers context, acknowledges uncertainty when appropriate, and avoids unsupported assumptions.",
+      "2": "Shows some awareness of uncertainty or context but does not fully explain its importance.",
+      "1": "Makes a conclusion with limited consideration of alternative explanations or available evidence.",
+      "0": "Makes an unsupported, overly confident claim or bases judgment entirely on personal beliefs."
+    }
+  }
+}
